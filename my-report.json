@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\Playwright_Framework_clone\\playwright.config.js",
-    "rootDir": "D:/Playwright_Framework_clone/tests",
+    "configFile": "C:\\Playwright_Framework_clone\\playwright.config.js",
+    "rootDir": "C:/Playwright_Framework_clone/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -16,7 +16,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/Playwright_Framework_clone/test-results",
+        "outputDir": "C:/Playwright_Framework_clone/test-results",
         "repeatEach": 1,
         "retries": 2,
         "metadata": {
@@ -24,7 +24,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "D:/Playwright_Framework_clone/tests",
+        "testDir": "C:/Playwright_Framework_clone/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -32,7 +32,7 @@
         "timeout": 30000
       },
       {
-        "outputDir": "D:/Playwright_Framework_clone/test-results",
+        "outputDir": "C:/Playwright_Framework_clone/test-results",
         "repeatEach": 1,
         "retries": 2,
         "metadata": {
@@ -40,7 +40,7 @@
         },
         "id": "firefox",
         "name": "firefox",
-        "testDir": "D:/Playwright_Framework_clone/tests",
+        "testDir": "C:/Playwright_Framework_clone/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -48,7 +48,7 @@
         "timeout": 30000
       },
       {
-        "outputDir": "D:/Playwright_Framework_clone/test-results",
+        "outputDir": "C:/Playwright_Framework_clone/test-results",
         "repeatEach": 1,
         "retries": 2,
         "metadata": {
@@ -56,7 +56,7 @@
         },
         "id": "webkit",
         "name": "webkit",
-        "testDir": "D:/Playwright_Framework_clone/tests",
+        "testDir": "C:/Playwright_Framework_clone/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -90,7 +90,7 @@
         }
       ],
       [
-        "D:\\Playwright_Framework_clone\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        "C:\\Playwright_Framework_clone\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         null
       ]
     ],
@@ -129,12 +129,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "skipped",
-                  "duration": 0,
+                  "duration": 2,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.690Z",
+                  "startTime": "2026-06-24T14:57:59.693Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -168,7 +168,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.724Z",
+                  "startTime": "2026-06-24T14:57:59.779Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -230,7 +230,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.699Z",
+                  "startTime": "2026-06-24T14:57:59.758Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -264,7 +264,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.801Z",
+                  "startTime": "2026-06-24T14:57:59.774Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -326,7 +326,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.729Z",
+                  "startTime": "2026-06-24T14:57:59.702Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -355,12 +355,12 @@
                   "workerIndex": 6,
                   "parallelIndex": 6,
                   "status": "skipped",
-                  "duration": 0,
+                  "duration": 1,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.782Z",
+                  "startTime": "2026-06-24T14:57:59.779Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -422,7 +422,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.735Z",
+                  "startTime": "2026-06-24T14:57:59.729Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -456,7 +456,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-21T17:32:12.800Z",
+                  "startTime": "2026-06-24T14:57:59.777Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -494,8 +494,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-21T17:32:09.491Z",
-    "duration": 3357.7690000000002,
+    "startTime": "2026-06-24T14:57:56.010Z",
+    "duration": 3846.193,
     "expected": 0,
     "skipped": 12,
     "unexpected": 0,
