@@ -1,4 +1,4 @@
-const { test, chromium } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 let browser;
 let page;

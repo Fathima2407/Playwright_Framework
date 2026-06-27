@@ -1,4 +1,4 @@
-const {test,expect} = require ('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test.skip('Locators practice1', async({page})=>
 {
@@ -30,7 +30,7 @@ test.skip('Locators practice2', async({page})=>{
 //     await page.waitForTimeout(3000);
 // });
 
-test.only('Locators Practice 3', async({page})=>{
+test('Locators Practice 3', async({page})=>{
     await page.goto("https://www.saucedemo.com/");
     await page.locator("#user-name").fill("standard_user");
     await page.locator("input[type='password']").fill("secret_sauce");

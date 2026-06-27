@@ -1,8 +1,19 @@
-
-# Playwright
+# Node modules
 node_modules/
-/test-results/
+
+# Playwright reports
 /playwright-report/
+/My-Report/
 /blob-report/
+/test-results/
+
+# Playwright cache & auth
 /playwright/.cache/
 /playwright/.auth/
+
+# Allure reports
+/allure-results/
+/allure-report/
+
+# Generated archives
+*.zip

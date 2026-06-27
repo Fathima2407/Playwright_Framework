@@ -1,4 +1,4 @@
-const {test, expect}=require('@playwright/test');
+import { test, expect } from '@playwright/test';
 import path from 'path';
 
 test('File Uploads',async({page})=>{

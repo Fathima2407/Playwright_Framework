@@ -1,5 +1,5 @@
-const {Page} = require('@playwright/test');
-const {BasePage} = require('./Basepage');
+// import { Page } from '@playwright/test';
+import { BasePage } from './Basepage.js';
 
 class Login extends BasePage{
     constructor(page){
@@ -20,4 +20,4 @@ class Login extends BasePage{
     }
 }
 
-module.exports = { Login };
+export { Login };

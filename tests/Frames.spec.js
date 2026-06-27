@@ -1,4 +1,4 @@
-const {test,expect} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test('Handling frames', async({page})=>{
     await page.goto("https://testpages.eviltester.com/styled/frames/frames-test.html");
@@ -43,7 +43,7 @@ test('Handling frames', async({page})=>{
 
 });
 
-test.only('Nested frames', async({page})=>{
+test('Nested frames', async({page})=>{
     await page.goto("https://play1.automationcamp.ir/frames.html");
     const parentFrame= await page.frameLocator("#frame1");
     const childFrame= parentFrame.frameLocator("#frame2");

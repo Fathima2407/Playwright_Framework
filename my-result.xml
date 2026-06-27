@@ -1,74 +1,44 @@
-<testsuites id="" name="" tests="12" failures="0" skipped="12" errors="0" time="3.8461930000000004">
-<testsuite name="Checkboxes.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0.002" errors="0">
-<testcase name="CheckBoxes in Amazon" classname="Checkboxes.spec.js">
-<skipped>
-</skipped>
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="16.746663">
+<testsuite name="Checkboxes.spec.js" timestamp="2026-06-27T16:22:28.795Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.622" errors="0">
+<testcase name="CheckBoxes in Amazon" classname="Checkboxes.spec.js" time="11.622">
 </testcase>
 </testsuite>
-<testsuite name="Dropdown.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="Searchable Dropdown" classname="Dropdown.spec.js">
-<skipped>
-</skipped>
+<testsuite name="Dropdown.spec.js" timestamp="2026-06-27T16:22:28.795Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.134" errors="0">
+<testcase name="Searchable Dropdown" classname="Dropdown.spec.js" time="9.134">
+<system-out>
+<![CDATA[[33m20[39m
+[
+  [32m'book shelf wooden'[39m,
+  [32m'book shelf wooden'[39m,
+  [32m'book cover transparent'[39m,
+  [32m'book cover transparent'[39m,
+  [32m'book self'[39m,
+  [32m'book self'[39m,
+  [32m'book cover'[39m,
+  [32m'book cover'[39m,
+  [32m'book locker'[39m,
+  [32m'book locker'[39m,
+  [32m'bookshelf for home'[39m,
+  [32m'bookshelf for home'[39m,
+  [32m'bookmark'[39m,
+  [32m'bookmark'[39m,
+  [32m'books for kids 9-12 years'[39m,
+  [32m'books for kids 9-12 years'[39m,
+  [32m'book organizer'[39m,
+  [32m'book organizer'[39m,
+  [32m'book light'[39m,
+  [32m'book light'[39m
+]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="Frames.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="Nested frames" classname="Frames.spec.js">
-<skipped>
-</skipped>
+<testsuite name="Frames.spec.js" timestamp="2026-06-27T16:22:28.795Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.924" errors="0">
+<testcase name="Nested frames" classname="Frames.spec.js" time="5.924">
 </testcase>
 </testsuite>
-<testsuite name="locators.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="Locators Practice 3" classname="locators.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="Checkboxes.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="CheckBoxes in Amazon" classname="Checkboxes.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="Dropdown.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="Searchable Dropdown" classname="Dropdown.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="Frames.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="Nested frames" classname="Frames.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="locators.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0.001" errors="0">
-<testcase name="Locators Practice 3" classname="locators.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="Checkboxes.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
-<testcase name="CheckBoxes in Amazon" classname="Checkboxes.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="Dropdown.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
-<testcase name="Searchable Dropdown" classname="Dropdown.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="Frames.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
-<testcase name="Nested frames" classname="Frames.spec.js">
-<skipped>
-</skipped>
-</testcase>
-</testsuite>
-<testsuite name="locators.spec.js" timestamp="2026-06-24T14:57:56.750Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
-<testcase name="Locators Practice 3" classname="locators.spec.js">
-<skipped>
-</skipped>
+<testsuite name="locators.spec.js" timestamp="2026-06-27T16:22:28.795Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.664" errors="0">
+<testcase name="Locators Practice 3" classname="locators.spec.js" time="9.664">
 </testcase>
 </testsuite>
 </testsuites>

@@ -3,7 +3,7 @@
     "configFile": "C:\\Playwright_Framework_clone\\playwright.config.js",
     "rootDir": "C:/Playwright_Framework_clone/tests",
     "forbidOnly": false,
-    "fullyParallel": true,
+    "fullyParallel": false,
     "globalSetup": null,
     "globalTeardown": null,
     "globalTimeout": 0,
@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 8
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,42 +20,10 @@
         "repeatEach": 1,
         "retries": 2,
         "metadata": {
-          "actualWorkers": 8
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Playwright_Framework_clone/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 30000
-      },
-      {
-        "outputDir": "C:/Playwright_Framework_clone/test-results",
-        "repeatEach": 1,
-        "retries": 2,
-        "metadata": {
-          "actualWorkers": 8
-        },
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "C:/Playwright_Framework_clone/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 30000
-      },
-      {
-        "outputDir": "C:/Playwright_Framework_clone/test-results",
-        "repeatEach": 1,
-        "retries": 2,
-        "metadata": {
-          "actualWorkers": 8
-        },
-        "id": "webkit",
-        "name": "webkit",
         "testDir": "C:/Playwright_Framework_clone/tests",
         "testIgnore": [],
         "testMatch": [
@@ -128,75 +96,21 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "skipped",
-                  "duration": 2,
+                  "status": "passed",
+                  "duration": 11622,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.693Z",
+                  "startTime": "2026-06-27T16:22:31.001Z",
                   "annotations": [],
                   "attachments": []
                 }
               ],
-              "status": "skipped"
+              "status": "expected"
             }
           ],
           "id": "83489d57b821106c2b60-743ed786efc93299be6c",
-          "file": "Checkboxes.spec.js",
-          "line": 36,
-          "column": 6
-        },
-        {
-          "title": "CheckBoxes in Amazon",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 4,
-                  "status": "skipped",
-                  "duration": 1,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.779Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "83489d57b821106c2b60-61d601d13314ec159bd9",
-          "file": "Checkboxes.spec.js",
-          "line": 36,
-          "column": 6
-        },
-        {
-          "title": "CheckBoxes in Amazon",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "83489d57b821106c2b60-dfeda5b8936931c3901e",
           "file": "Checkboxes.spec.js",
           "line": 36,
           "column": 6
@@ -224,75 +138,28 @@
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
-                  "status": "skipped",
-                  "duration": 1,
+                  "status": "passed",
+                  "duration": 9134,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m20\u001b[39m\n"
+                    },
+                    {
+                      "text": "[\n  \u001b[32m'book shelf wooden'\u001b[39m,\n  \u001b[32m'book shelf wooden'\u001b[39m,\n  \u001b[32m'book cover transparent'\u001b[39m,\n  \u001b[32m'book cover transparent'\u001b[39m,\n  \u001b[32m'book self'\u001b[39m,\n  \u001b[32m'book self'\u001b[39m,\n  \u001b[32m'book cover'\u001b[39m,\n  \u001b[32m'book cover'\u001b[39m,\n  \u001b[32m'book locker'\u001b[39m,\n  \u001b[32m'book locker'\u001b[39m,\n  \u001b[32m'bookshelf for home'\u001b[39m,\n  \u001b[32m'bookshelf for home'\u001b[39m,\n  \u001b[32m'bookmark'\u001b[39m,\n  \u001b[32m'bookmark'\u001b[39m,\n  \u001b[32m'books for kids 9-12 years'\u001b[39m,\n  \u001b[32m'books for kids 9-12 years'\u001b[39m,\n  \u001b[32m'book organizer'\u001b[39m,\n  \u001b[32m'book organizer'\u001b[39m,\n  \u001b[32m'book light'\u001b[39m,\n  \u001b[32m'book light'\u001b[39m\n]\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.758Z",
+                  "startTime": "2026-06-27T16:22:31.020Z",
                   "annotations": [],
                   "attachments": []
                 }
               ],
-              "status": "skipped"
+              "status": "expected"
             }
           ],
           "id": "74f4881119bae32540dd-9e573e80b374156da70b",
-          "file": "Dropdown.spec.js",
-          "line": 64,
-          "column": 6
-        },
-        {
-          "title": "Searchable Dropdown",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "parallelIndex": 5,
-                  "status": "skipped",
-                  "duration": 1,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.774Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "74f4881119bae32540dd-2c551c99bc3cd35fb29f",
-          "file": "Dropdown.spec.js",
-          "line": 64,
-          "column": 6
-        },
-        {
-          "title": "Searchable Dropdown",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "74f4881119bae32540dd-ca0c3592da664cbb79a3",
           "file": "Dropdown.spec.js",
           "line": 64,
           "column": 6
@@ -320,75 +187,21 @@
                 {
                   "workerIndex": 2,
                   "parallelIndex": 2,
-                  "status": "skipped",
-                  "duration": 1,
+                  "status": "passed",
+                  "duration": 5924,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.702Z",
+                  "startTime": "2026-06-27T16:22:31.098Z",
                   "annotations": [],
                   "attachments": []
                 }
               ],
-              "status": "skipped"
+              "status": "expected"
             }
           ],
           "id": "0d455cae70e999e8ca4d-bd4fa0208b769dfa2da2",
-          "file": "Frames.spec.js",
-          "line": 46,
-          "column": 6
-        },
-        {
-          "title": "Nested frames",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 6,
-                  "status": "skipped",
-                  "duration": 1,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.779Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "0d455cae70e999e8ca4d-30458aff7a0a752f4a83",
-          "file": "Frames.spec.js",
-          "line": 46,
-          "column": 6
-        },
-        {
-          "title": "Nested frames",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "0d455cae70e999e8ca4d-1fafbce6896210856a86",
           "file": "Frames.spec.js",
           "line": 46,
           "column": 6
@@ -416,75 +229,21 @@
                 {
                   "workerIndex": 3,
                   "parallelIndex": 3,
-                  "status": "skipped",
-                  "duration": 1,
+                  "status": "passed",
+                  "duration": 9664,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.729Z",
+                  "startTime": "2026-06-27T16:22:31.017Z",
                   "annotations": [],
                   "attachments": []
                 }
               ],
-              "status": "skipped"
+              "status": "expected"
             }
           ],
           "id": "8abad3716f40388ac053-9e6e8fff6dcfdf57f767",
-          "file": "locators.spec.js",
-          "line": 33,
-          "column": 6
-        },
-        {
-          "title": "Locators Practice 3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 7,
-                  "status": "skipped",
-                  "duration": 1,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-06-24T14:57:59.777Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "8abad3716f40388ac053-0980a9d0f76d6937509a",
-          "file": "locators.spec.js",
-          "line": 33,
-          "column": 6
-        },
-        {
-          "title": "Locators Practice 3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "8abad3716f40388ac053-42492de7d8c976f8877b",
           "file": "locators.spec.js",
           "line": 33,
           "column": 6
@@ -494,10 +253,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-24T14:57:56.010Z",
-    "duration": 3846.193,
-    "expected": 0,
-    "skipped": 12,
+    "startTime": "2026-06-27T16:22:27.929Z",
+    "duration": 16746.663,
+    "expected": 4,
+    "skipped": 0,
     "unexpected": 0,
     "flaky": 0
   }

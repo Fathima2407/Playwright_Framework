@@ -1,5 +1,4 @@
-const {Page} = require('@playwright/test');
-const {BasePage} =require('./Basepage');
+import { BasePage } from './Basepage.js';
 
 class Products extends BasePage{
     constructor(page){
@@ -76,4 +75,4 @@ class Products extends BasePage{
     }
 }
 
-module.exports = {Products};
+export {Products};
