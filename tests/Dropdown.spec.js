@@ -61,7 +61,7 @@ test('Custom_Dropdown', async({page})=>{
     // await page.waitForTimeout(5000);
 });
 
-test.only("Searchable Dropdown", async({page})=>{
+test("Searchable Dropdown", async({page})=>{
     await page.goto("https://www.amazon.in/");
     await page.locator("#twotabsearchtextbox").fill("book");
     await page.waitForSelector(".left-pane-results-container");

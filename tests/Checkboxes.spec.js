@@ -33,7 +33,7 @@ test("CheckBoxes", async({page})=>
 
 });
 
-test.only("CheckBoxes in Amazon", async({page})=>
+test("CheckBoxes in Amazon", async({page})=>
 {
     await page.goto("https://www.amazon.in/");
     await page.getByPlaceholder("Search Amazon.in").fill("book");
