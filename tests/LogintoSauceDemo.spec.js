@@ -1,7 +1,7 @@
-const {test,expect} = require('@playwright/test');
-const {Login} = require('./SauceDemoPages/LoginPage');
-const {Products} = require('./SauceDemoPages/Products');
-const {CheckOutPage } = require('./SauceDemoPages/CheckOutPage');
+import { test, expect } from '@playwright/test';
+import { Login } from './SauceDemoPages/LoginPage.js';
+import { Products } from './SauceDemoPages/Products.js';
+import { CheckOutPage } from './SauceDemoPages/CheckOutPage.js';
 
 test(" USer should be able to login ",async({page})=>{
     const login = new Login(page);

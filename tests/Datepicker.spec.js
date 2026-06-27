@@ -1,4 +1,4 @@
-const {test,expect} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test('Date_Picker',async({page})=>{
     // await page.goto("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");

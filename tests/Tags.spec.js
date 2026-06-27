@@ -1,4 +1,4 @@
-const {test,expect} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test.describe("Google Search Tests",()=>{
     test("Test 1: Search for Playwright @Smoke", async({page})=>{

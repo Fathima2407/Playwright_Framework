@@ -1,4 +1,4 @@
-const {test, expect, chromium, Page} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test("Multiple tabs",async({page : Page})=>{
     const browser = await chromium.launch({headles : false});

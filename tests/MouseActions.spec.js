@@ -1,4 +1,4 @@
-const {test, expect} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test("MouseActions", async({page})=>{
     await page.goto("https://play1.automationcamp.ir/mouse_events.html");

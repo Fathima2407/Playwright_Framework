@@ -1,4 +1,4 @@
-const {Page} = require('@playwright/test');
+//const {Page} = require('@playwright/test');
 
 class BasePage {
   page;
@@ -16,4 +16,4 @@ class BasePage {
   }
 }
 
-module.exports = { BasePage };
+export { BasePage };

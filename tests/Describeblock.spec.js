@@ -1,4 +1,4 @@
-const {test, expect,Page} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 async function login( page) {
     await page.goto("https://www.saucedemo.com/");

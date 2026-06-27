@@ -1,4 +1,4 @@
-const {test,expect} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test('Handling frames', async({page})=>{
     await page.goto("https://testpages.eviltester.com/styled/frames/frames-test.html");
