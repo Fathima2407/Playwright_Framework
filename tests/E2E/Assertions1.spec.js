@@ -16,7 +16,7 @@ test('Assertions', async({page})=>
 
 test('Assertions 1', async({page})=>
 {
-    await page.goto("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
+    await page.goto("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php/Engineer B");
     await page.locator("#name").fill("Test User");
     await page.locator("#email").fill("abc@gmail.com");
     await expect.soft(page.locator("#name")).toHaveValue("Test User");
